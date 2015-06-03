@@ -83,4 +83,7 @@ Git lets you see what you have changed since the last time you created a commit.
 1. **Add the files with the changes you made using `git add --all`**
 
 2. **Type in `git log` to see what commits you have made so far.**
+
+3. **If the log shows up and sticks around with a `:`, Type `q` and press `Enter`
+
  
