@@ -9,6 +9,7 @@ We will start with the simplest Git setup and try to make the initial introducti
 # Basic Volcabulary
 
 **Git Repository** - The set of all files and folders that you want to track together and their version history are contained within this structure.
+
 **Commit** - A commit is basically a snapshot of the state of your repository folder.
 
 # The Setup
@@ -53,4 +54,27 @@ Think of `git init` as the  equivalent of File -> New for files. It creates the 
 
 ![](gifs/git-commit.gif)
 
-Now that you have added the 
+Now that you have added the file, the next step is to create a commit.
+
+1. **Type `git commit -m 'This can be whatever message you want to leave'`**
+
+# Looking at your previous commits
+
+![](gifs/git-diff.gif)
+
+Git lets you see what you have changed since the last time you created a commit.
+
+1. **Type in `git diff`.**
+    
+    If you haven't modified anything since the last file, this command should do nothing.
+2. **Open the new file that you had created during this tutorial and add some text to it. Save it and close.**
+3. **Type in `git diff` again.**
+
+    This time around you should be able to see the changes you have made and some relevant stats.
+
+# Looking at your Logs
+
+![](gifs/git-log.gif)
+1. **Add the files with the changes you made using `git add --all`**
+2. **Type in `git log` to see what commits you have made so far.**
+ 
