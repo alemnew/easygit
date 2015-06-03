@@ -25,7 +25,7 @@ We will start with the simplest Git setup and try to make the initial introducti
 
 ![](gifs/git-init.gif)
 
-Think of `git init` as the  equivalent of File -> New for files. It creates the repository in the folder you executed it in. All the effects of the command are contained in the `.git` folder (so no registry keys or files set). Infact, if you cooy paste the folder to another path, git won't even notice.
+Think of `git init` as the  equivalent of File -> New for files. It creates the repository in the folder you executed it in. All the effects of the command are contained in the `.git` folder (so no registry keys or files set). Infact, if you copy and paste the folder to another path, git won't even notice.
 
 # Adding and editing new files
 
