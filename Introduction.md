@@ -2,7 +2,7 @@
 
 There are a million tutorials out there but none of them try to start from the simplest usecase and build towards the most difficult. 
 
-**Which is why I decided to roll my own tutorial.**
+And so, attempt #1000.
 
 We will start with the simplest Git setup and try to make the initial introduction easy.
 
